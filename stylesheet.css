@@ -1,0 +1,33 @@
+body {
+    background-image: url(Pictures/pexels-miguel-á-padriñán-19670.jpg); /* The image used for background*/
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    font-family: 'Syne', sans-serif; 
+    }
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .image-container {
+        text-align: center;
+        width: 100%;
+        
+      }
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      .yellow, .hover:hover {
+        color: rgba(40, 42, 53)!important;
+        background-color: rgba(163, 230, 255, 0.9) !important;
+        }
+    
+        
+    
